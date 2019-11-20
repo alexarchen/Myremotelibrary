@@ -1,0 +1,75 @@
+1574279575 Sent 1M block, status 0
+1574279580 Sent 1M block, status 0
+1574279583 Sent 1M block, status 0
+1574279586 Sent 1M block, status 0
+1574279590 Sent 1M block, status 0
+1574279600 Sent 1M block, status 0
+1574279608 Sent 1M block, status 0
+1574279612 Sent 1M block, status 0
+1574279616 Sent 1M block, status 0
+1574279622 Sent 1M block, status 0
+1574279630 Sent 1M block, status 0
+1574279637 Sent 1M block, status 0
+1574279641 Sent 1M block, status 0
+1574279646 Sent 1M block, status 0
+1574279654 Sent 1M block, status 0
+1574279660 Sent 1M block, status 0
+1574279667 Sent 1M block, status 0
+GET /Мультфильмы/Гора самоцветов/Диск 5/Глинька.mp4 0 242567212 242567213
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request Accept-Encoding=identity;q=1, *;q=0
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=*/*
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Language=en-us,en
+- Request Range=bytes=0-
+GET /Мультфильмы/Гора самоцветов/Диск 5/Глинька.mp4 242122752 242567212 242567213
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request Accept-Encoding=identity;q=1, *;q=0
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=*/*
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Language=en-us,en
+- Request Range=bytes=242122752-
+1574279672Finished
+GET /Мультфильмы/Гора самоцветов/Диск 5/Глинька.mp4 163840 242567212 242567213
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request Accept-Encoding=identity;q=1, *;q=0
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=*/*
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Language=en-us,en
+- Request Range=bytes=163840-
+1574279674 Sent 1M block, status 0
+1574279675 Sent 1M block, status 0
+1574279676 Sent 1M block, status 0
+1574279676 Sent 1M block, status 0
+1574279677 Sent 1M block, status 0
+1574279678 Sent 1M block, status 0
+1574279679 Sent 1M block, status 0
+1574279679 Sent 1M block, status 0
+1574279680 Sent 1M block, status 0
+1574279681 Sent 1M block, status 0
+1574279681 Sent 1M block, status 0
+1574279685 Sent 1M block, status 0
+1574279693 Sent 1M block, status 0
+1574279703 Sent 1M block, status 0
+GET /Диафильмы/cover.jpg 0 166340 166341
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+- Request DNT=1
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+- Request Cookie=qtoken_account=YWRtaW4=; remeber=1; showAllAp=true; qtoken=a4ec2cc5a96d3131b4971f67ce11610e; _ga=GA1.1.918973295.1573844915; token=0bbeb6fb1bddf67488b68a9945580026382752cfe93425c0c8bc4ebc4d79d68f; qdms_rem_passwd=0; qdms_rem_user=1; qdms_saved_passwd_not_encode=admin; qdms_saved_user=admin
+1574279840Finished
