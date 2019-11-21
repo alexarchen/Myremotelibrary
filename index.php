@@ -244,7 +244,7 @@ color: inherit;
 
 <!--for better view in browser-->
 <div class="bg"></div>
-<div class="wrap">
+<div class="wrap" id="browser">
  <ul class="navigation-items"></ul>
 </div>
 
@@ -327,6 +327,8 @@ if (event.keyCode==13)
    Timer=0;
    StopNext=false;
 
+ if (player.getPlayerState()=="IDLE")
+ {
  if ($(".navigation-item.focus").attr("play"))
  {
   Play($(".navigation-item.focus").attr("data"),$(".navigation-item.focus"));
@@ -339,15 +341,27 @@ if (event.keyCode==13)
  }
  else
   $(".navigation-items").load("?browse&Folder="+$(".navigation-item.focus").attr("data"));
+ }
+ else 
+ if (player.getPlayerState()=="PAUSED")
+ {
+   Resume();
+ }
+ else if (player.getPlayerState()=="PLAYING")
+   Pause();
 
 }  
 else
 if ((event.keyCode==461) || (event.keyCode==27) || (event.keyCode==413)) // back
 {
-  Stop();
-
+ if (player.getPlayerState()=="IDLE")
+ {
   if ($("#back_ref").length)
    $(".navigation-items").load("?browse&Folder="+$("#back_ref").attr("data"));
+ }
+ else
+  Stop();
+
 } 
 else
 if (event.keyCode==19)
@@ -381,12 +395,7 @@ if (event.keyCode==417)
 {
 // $("#media")[0].pause();
  var r =$("#media")[0].playbackRate;
-
-// if (r<0) $("#media")[0].playbackRate = 2;
-// else
-//  if (r<=8)
-
-   $("#media")[0].playbackRate=2;
+ $("#media")[0].playbackRate=2;
 
  $("#media")[0].play();
 
@@ -497,15 +506,13 @@ function Prev()
 
 function Stop()
 {
- $("#video").hide();
+ $("#browser").show();
 // var player =  $("#media")[0];
- player.pause();
+ player.stop();
 }
 
 function Play(file,elem)
 {     
- $("#video").show();
-
  var req = new cast.framework.messages.LoadRequestData();
  req.autoplay =  true;
  req.media = new cast.framework.messages.MediaInformation();
@@ -519,12 +526,7 @@ else
 else
  if (file.toLowerCase().endsWith(".ts")) req.media.contentType = 'video/mp2t';
  req.media.streamType = cast.framework.messages.StreamType.BUFFERED;
-
  player.load(req);
-// var player =  $("#media")[0];
-// player.pause();
-// player.src="?play&path="+file;
-// player.load();
  player.play();
 }
 
@@ -596,18 +598,17 @@ playerDataBinder.addEventListener(
         case cast.framework.ui.State.LAUNCHING:
         case cast.framework.ui.State.IDLE:
           // Write your own event handling code
+           $("#browser").show();
           break;
         case cast.framework.ui.State.LOADING:
           // Write your own event handling code
-          break;
         case cast.framework.ui.State.BUFFERING:
           // Write your own event handling code
-          break;
         case cast.framework.ui.State.PAUSED:
           // Write your own event handling code
-          break;
         case cast.framework.ui.State.PLAYING:
           // Write your own event handling code
+           $("#browser").hide();
           break;
       }
     });
@@ -617,7 +618,8 @@ context.start(
   customNamespaces : 
    {
     'urn:x-cast:com.myremotelibrary.commands' : cast.framework.system.MessageType.JSON
-   }
+   },
+  maxInactivity : 5600
  });
 
 </script> 
