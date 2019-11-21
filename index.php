@@ -231,7 +231,6 @@ fclose($f);
     <script src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
     <!-- Cast Debug Logger -->
     <script src="//www.gstatic.com/cast/sdk/libs/devtools/debug_layer/caf_receiver_logger.js"></script>
-
     <meta http-equiv="Content-Type" content="text/html; Charset=windows-1251"/>
     <title>My Remote Library</title>
 <style>
@@ -246,19 +245,10 @@ color: inherit;
 <!--for better view in browser-->
 <div class="bg"></div>
 <div class="wrap">
+ <ul class="navigation-items"></ul>
+</div>
 
-<ul class="navigation-items"></ul>
-                                                 
-</div>
-<div class='video' id='video'>
-<video 
-    width="100%"
-    height="100%"
-    id="media"
-    class='castMediaElement'
- >
-</video>
-</div>
+<cast-media-player></cast-media-player>
                       
 <script type='text/javascript'>
 

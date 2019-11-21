@@ -73,3 +73,135 @@ GET /Диафильмы/cover.jpg 0 166340 166341
 - Request Accept-Language=ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 - Request Cookie=qtoken_account=YWRtaW4=; remeber=1; showAllAp=true; qtoken=a4ec2cc5a96d3131b4971f67ce11610e; _ga=GA1.1.918973295.1573844915; token=0bbeb6fb1bddf67488b68a9945580026382752cfe93425c0c8bc4ebc4d79d68f; qdms_rem_passwd=0; qdms_rem_user=1; qdms_saved_passwd_not_encode=admin; qdms_saved_user=admin
 1574279840Finished
+GET /Диафильмы/cover.jpg 0 166340 166341
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+GET /Фильмы/cover.jpg 0 47674 47675
+GET /Концерты/cover.jpg 0 44013 44014
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361202Finished
+1574361202Finished
+GET /Мультфильмы/cover.jpg 0 57642 57643
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361202Finished
+1574361202Finished
+GET /Диафильмы/cover.jpg 0 166340 166341
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361571Finished
+GET /Концерты/cover.jpg 0 44013 44014
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361571Finished
+GET /Фильмы/cover.jpg 0 47674 47675
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361571Finished
+GET /Мультфильмы/cover.jpg 0 57642 57643
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361571Finished
+GET /Диафильмы/cover.jpg 0 166340 166341
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361949Finished
+GET /Концерты/cover.jpg 0 44013 44014
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361949Finished
+GET /Мультфильмы/cover.jpg 0 57642 57643
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+GET /Фильмы/cover.jpg 0 47674 47675
+- Request Host=192.168.0.200
+- Request Connection=keep-alive
+- Request Sec-Fetch-Mode=no-cors
+- Request User-Agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.81 Safari/537.36 CrKey/1.42.172094
+- Request Accept=image/webp,image/apng,image/*,*/*;q=0.8
+- Request CAST-DEVICE-CAPABILITIES={"bluetooth_supported":true,"display_supported":true,"hi_res_audio_supported":false,"remote_control_input_supported":false,"touch_input_supported":false}
+- Request Referer=http://192.168.0.200/MyRemoteLibrary/
+- Request Accept-Encoding=gzip, deflate
+- Request Accept-Language=en-us,en
+1574361949Finished
+1574361949Finished
