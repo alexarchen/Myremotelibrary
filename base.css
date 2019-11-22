@@ -8,6 +8,10 @@ html, body {
     color: #fff;
     font-family: Helvetica, Arial, Verdana, Sans-Serif;
 }
+body
+{
+    background-image: url(pic/collections_back.png);
+}
 
 h2 {
     margin: 5px 0;
@@ -15,15 +19,9 @@ h2 {
     font-weight: normal;
 }
 
-.bg {
-    position: absolute;
-    left : 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: url(pic/collections_back.png);
-    z-index: -1;
+cast-media-player {
 }
+
 .video
 {
     position: absolute;
