@@ -281,12 +281,14 @@ if (event.keyCode==39)    // left
 {
  if ($(".navigation-item.focus").next().length)
  {
+  if (player.getPlayerState()=="PLAYING")
+   Next();
+else
+{
   $el = $(".navigation-item.focus");
   $el.removeClass('focus');
   $el.next().addClass('focus');
-
-  if (player.getPlayerState()=="PLAYING")
-   Next();
+}
 
  }                        
 }
@@ -295,12 +297,14 @@ if (event.keyCode==37)  // right
 {
  if ($(".navigation-item.focus").prev().length)
  {
+  if (player.getPlayerState()=="PLAYING")
+    Prev();
+else
+{
   $el = $(".navigation-item.focus");
   $el.removeClass('focus');
   $el.prev().addClass('focus');
-
-  if (player.getPlayerState()=="PLAYING")
-    Prev();
+}
 
  }    
 } 
@@ -510,6 +514,19 @@ function Next()
 
 function Prev()
 {
+ if ($(".navigation-item.focus").prev().length)
+ {
+   $el = $(".navigation-item.focus");
+   $el.removeClass("focus");
+   $el.prev().addClass("focus");
+   Play($(".navigation-item.focus").attr("data"),$(".navigation-item.focus"));
+
+   var page = Math.floor($(".navigation-item.focus")[0].offsetTop/718);
+   $(".navigation-items").scrollTop(page*720);
+
+ }
+ else
+  Stop();
 }
 
 function Stop()
