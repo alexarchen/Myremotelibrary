@@ -251,3 +251,8 @@ display:none;
  background-color:#FFF;
  z-index:100;
 }
+
+cast-media-player {
+--splash-image: none;
+--pause-image:none;
+    }

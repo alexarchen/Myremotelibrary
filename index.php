@@ -284,6 +284,10 @@ if (event.keyCode==39)    // left
   $el = $(".navigation-item.focus");
   $el.removeClass('focus');
   $el.next().addClass('focus');
+
+  if (player.getPlayerState()=="PLAYING")
+   Next();
+
  }                        
 }
 else
@@ -294,6 +298,10 @@ if (event.keyCode==37)  // right
   $el = $(".navigation-item.focus");
   $el.removeClass('focus');
   $el.prev().addClass('focus');
+
+  if (player.getPlayerState()=="PLAYING")
+    Prev();
+
  }    
 } 
 else
@@ -382,7 +390,7 @@ if (event.keyCode==412)
 // else
  $("#media")[0].pause();
 
- if ($("#media")[0].playbackRate>0) $("#media")[0].playbackRate = -1;
+ if (player.getPlaybackRate()>0) $("#media")[0].playbackRate = -1;
  else
   if ($("#media")[0].playbackRate<=-8)
     $("#media")[0].playbackRate*=2;
@@ -563,12 +571,6 @@ $(document).ready(function(){
 
  $(".navigation-items").load("?browse");
 
-
-$("#media").bind("ended", function() {
-    VideoEnded();
-});
-
-
 });
 
 const context = cast.framework.CastReceiverContext.getInstance();
@@ -589,6 +591,11 @@ player.addEventListener(
      console.Log(JSON.stringify(e));
    });
 
+player.addEventListener(
+     cast.framework.events.EventType.ENDED,
+    e => {
+     VideoEnded();
+   });
 
 // Update ui according to player state
 playerDataBinder.addEventListener(
