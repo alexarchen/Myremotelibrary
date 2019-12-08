@@ -7,11 +7,9 @@ html, body {
     padding: 0;
     color: #fff;
     font-family: Helvetica, Arial, Verdana, Sans-Serif;
+    background-image:url(pic/collections_back.png);
 }
-body
-{
-    background-image: url(pic/collections_back.png);
-}
+ 
 
 h2 {
     margin: 5px 0;
@@ -253,4 +251,5 @@ display:none;
 cast-media-player {
 --splash-image: none;
 --pause-image:none;
+--background-image:url(pic/collections_back.png);
     }
